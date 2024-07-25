@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  width: 200vh;
+  background-color: #fff7ff;
+}
+
+.leaf {
+  font-size: 2rem;
+}
