@@ -1,10 +1,11 @@
 .App {
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
+  justify-content: flex-start; /* Align items at the start (top) */
   align-items: center;
-  height: 200vh;
-  width: 200vh;
-  background-color: #fff7ff;
+  height: 150vh;
+  width: 100vw;
+  background-color: #39399a;
 }
 
 .leaf {

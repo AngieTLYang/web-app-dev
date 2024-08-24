@@ -1,0 +1,32 @@
+  .menu {
+    width: 100%;
+    background-color: #333; /* Dark background for menu bar */
+    padding: 10px 0;
+    position: fixed; /* Fixes the menu at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures it stays on top of other content */
+  }
+  
+  .menu-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  .menu-item {
+    margin: 0 15px;
+  }
+  
+  .menu-item a {
+    color: white; /* Menu item text color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 18px;
+  }
+  
+  .menu-item a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

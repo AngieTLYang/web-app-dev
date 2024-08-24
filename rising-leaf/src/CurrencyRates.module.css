@@ -1,38 +1,38 @@
 /* CurrencyRates.module.css */
-  .CurrencyRates {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    width: 100%; /* Adjust this value as needed */
-    max-width: 1500px; /* Optional: limit the maximum width */
-    height: 400px; /* Adjust this value for the height */
-    margin: 0 auto; /* Center the chart */
-  }
+.CurrencyRates {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  width: 100%; /* Adjust this value as needed */
+  max-width: 1500px; /* Optional: limit the maximum width */
+  height: 600px; /* Adjust this value for the height */
+  margin: 0 auto; /* Center the chart */
+}
+
+.currencyRates table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f9f9f9;
+}
   
-  .currencyRates table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: #f9f9f9;
-  }
+.currencyRates th,
+.currencyRates td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.currencyRates th {
+  background-color: #4CAF50;
+  color: white;
+}
   
-  .currencyRates th,
-  .currencyRates td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-  }
+.currencyRates tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
   
-  .currencyRates th {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-  .currencyRates tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  .currencyRates tr:hover {
-    background-color: #ddd;
-  }
+.currencyRates tr:hover {
+  background-color: #ddd;
+}
