@@ -3,7 +3,7 @@ const Marker = require('../model/Marker');
 const router = express.Router();
 
 // Get all markers
-router.get('/markers', async (req, res) => {
+router.get('/', async (req, res) => {
   try {
     const markers = await Marker.find();
     res.json(markers);

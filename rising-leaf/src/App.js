@@ -44,7 +44,7 @@ const App = () => {
           <Route path="/map" element={
             <div style={{ width: '80%', margin: '20px auto' }}>
               <h1>World Map</h1>
-              <div style={{ height: '3000px', width: '100%' }}>
+              <div style={{ height: '80%', width: '100%' }}>
                 <Map />
               </div>
             </div>
